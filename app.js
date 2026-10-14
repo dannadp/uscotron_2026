@@ -94,7 +94,7 @@ const initialDataset = [
     { id: 86, name: "RobotiX 4", level: "Universidad", category: "Robogol Fútbol", school: "Academia RobotiX Lab", cap: "Santiago Lara", capDoc: "Pendiente", p2: "Santiago Alvarez Diaz", p3: "N/A", phone: "3185191757", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
 
     { id: 87, name: "Gaitana", level: "Colegio", category: "Seguidor de línea velocista", school: "Tecnoacademia Neiva", cap: "Samuel Plazas Gonzalez", capDoc: "TI 1077236375", p2: "Juan David Claros Perdomo", p3: "N/A", phone: "3132173688", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
-    { id: 88, name: "Badline", level: "Colegio", category: "Seguidor de línea velocista", school: "I.E Técnico Superior", cap: "SAMUEL DAVID TOVAR AVILES", capDoc: "TI 1029884414", p2: "CRISTIAN DAVID TELLO MEJIA", p3: "N/A", phone: "3115762447", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
+    { id: 88, name: "Badline", level: "Colegio", category: "Seguidor de línea velocista", school: "Técnico Superior", cap: "SAMUEL DAVID TOVAR AVILES", capDoc: "TI 1029884414", p2: "CRISTIAN DAVID TELLO MEJIA", p3: "N/A", phone: "3115762447", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
     { id: 93, name: "Gimnasio San Bernardino", level: "Colegio", category: "Seguidor de línea velocista", school: "Gimnasio San Bernardino", cap: "Christopher Fajardo Arias", capDoc: "TI 1029887521", p2: "Samuel Santiago Murcia Gaitan", p3: "N/A", phone: "3165381002", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
     { id: 101, name: "Educakids", level: "Colegio", category: "Seguidor de línea velocista", school: "Educakids", cap: "Juan Emiliano Martínez", capDoc: "TI 1077244509", p2: "N/A", p3: "N/A", phone: "3229352713", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
     { id: 102, name: "Educakids 2", level: "Colegio", category: "Seguidor de línea velocista", school: "Educakids", cap: "Juan Martín Hermida", capDoc: "TI 1007371167", p2: "N/A", p3: "N/A", phone: "3229352713", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
@@ -115,7 +115,15 @@ const initialDataset = [
     { id: 103, name: "RobotiX 5", level: "Universidad", category: "Minisumo RC", school: "Academia RobotiX Lab", cap: "Emmanuel Ninco", capDoc: "Pendiente", p2: "N/A", p3: "N/A", phone: "3185191757", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
 
     { id: 96, name: "Rayo mcqueen", level: "Universidad", category: "Seguidor de línea velocista", school: "Usco", cap: "Linda Osiris Escobar Díaz", capDoc: "CC 1077722827", p2: "Lizeth Karina Zambrano Jimenez", p3: "Julian Estupiñan Gonzalez", phone: "3115778872", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
-    { id: 104, name: "RobotiX 6", level: "Universidad", category: "Seguidor de línea velocista", school: "Academia RobotiX Lab", cap: "Angel Lorenzo Ospina Lugo", capDoc: "TI 1014994585", p2: "N/A", p3: "N/A", phone: "3185191757", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 }
+    { id: 104, name: "RobotiX 6", level: "Universidad", category: "Seguidor de línea velocista", school: "Academia RobotiX Lab", cap: "Angel Lorenzo Ospina Lugo", capDoc: "TI 1014994585", p2: "N/A", p3: "N/A", phone: "3185191757", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
+
+    { id: 107, name: "GEAR FIFTH", level: "Colegio", category: "Seguidor de línea velocista", school: "José Hilario López", cap: "Miguel Angel Morales Oliveros", capDoc: "TI 1077233147", p2: "Pendiente", p3: "N/A", phone: "3116458738", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
+
+    { id: 108, name: "Purple Death", level: "Universidad", category: "Minisumo RC", school: "Universidad Cooperativa de Colombia", cap: "Pendiente", capDoc: "Pendiente", p2: "Pendiente", p3: "N/A", phone: "Pendiente", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
+
+    { id: 109, name: "SpeedBoot", level: "Universidad", category: "Seguidor de línea velocista", school: "Corporación Universitaria del Huila - CORHUILA", cap: "Pendiente", capDoc: "Pendiente", p2: "Pendiente", p3: "N/A", phone: "Pendiente", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
+    { id: 110, name: "Nova Flash", level: "Universidad", category: "Seguidor de línea velocista", school: "Universidad Cooperativa de Colombia", cap: "Pendiente", capDoc: "Pendiente", p2: "Pendiente", p3: "N/A", phone: "Pendiente", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
+    { id: 111, name: "Gallo Negro Racing", level: "Universidad", category: "Seguidor de línea velocista", school: "Corhuila", cap: "Pendiente", capDoc: "Pendiente", p2: "Pendiente", p3: "N/A", phone: "Pendiente", score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0 },
 
 ];
 
@@ -177,7 +185,8 @@ function loadState() {
     try {
         const parsed = JSON.parse(localStorage.getItem('uscotron_brackets') || '{}');
         Object.keys(parsed).forEach(k => {
-            if (parsed[k] && parsed[k].v === BRACKET_VERSION) appState.brackets[k] = parsed[k];
+            const need = k.endsWith('_Minisumo RC') ? LLAVES_VERSION : BRACKET_VERSION;
+            if (parsed[k] && parsed[k].v === need) appState.brackets[k] = parsed[k];
         });
     } catch (e) { appState.brackets = {}; }
 }
@@ -197,20 +206,23 @@ function computeBestTime(t1, t2, t3) {
 
 
 // ===================== CUADROS / LLAVES =====================
-// Robogol Fútbol  -> eliminación directa
-// Minisumo RC     -> llaves con repechaje (doble eliminación)
-const BRACKET_VERSION = 3;
+// Robogol Fútbol -> eliminación directa
+// Minisumo RC    -> llaves: cada equipo juega 2 partidos, los 2 con más puntos avanzan, hasta la final
+const BRACKET_VERSION = 3;   // eliminación directa
+const LLAVES_VERSION = 4;    // llaves de Minisumo
+const PTS_WIN = 3, PTS_DRAW = 1;
+const LLAVE_LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 function escapeHTML(s) {
     return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
 function bracketKey(level, cat) { return `${level}_${cat}`; }
-function bracketTypeFor(cat) { return cat === "Minisumo RC" ? "double" : "single"; }
+function bracketTypeFor(cat) { return cat === "Minisumo RC" ? "llaves" : "single"; }
 
 function newMatch(id, bracket, round, index) {
     return { id, bracket, round, index, a: null, b: null, scoreA: 0, scoreB: 0,
-             completed: false, auto: false, winner: null, loser: null, nextWin: null, nextLose: null };
+             completed: false, auto: false, winner: null, loser: null, nextWin: null };
 }
 
 // Normaliza el nombre de la institución (en la hoja hay muchas formas de escribir el mismo colegio)
@@ -245,9 +257,6 @@ function shuffleInPlace(arr) {
 }
 
 // Ordena los equipos para que en la 1ra ronda se enfrenten contra otros colegios.
-// Se agrupan por institución (la más grande primero) y se empareja cada equipo con el que está
-// a media lista de distancia: así dos equipos del mismo colegio solo chocan si ese colegio
-// tiene más de la mitad de los equipos de la categoría.
 function arrangeOrder(ids, randomize) {
     let list = ids.map(id => ({ id, key: teamSchoolKey(id) }));
     if (randomize) shuffleInPlace(list);
@@ -270,77 +279,50 @@ function arrangeOrder(ids, randomize) {
     return out;
 }
 
+// ---------------------------------------------------------------
+// ELIMINACIÓN DIRECTA (Robogol)
+// ---------------------------------------------------------------
 // Empareja las fuentes de dos en dos. Si sobra una (número impar) solo esa pasa directo (BYE).
 function createBracket(cat, ids, shuffle) {
     const order = arrangeOrder(ids, shuffle);
     const n = order.length;
-    const dbl = bracketTypeFor(cat) === "double" && n >= 3;
     const matches = [];
 
-    // Una "fuente" es un id de equipo, 'BYE', o {from: idPartido, kind: 'win'|'lose'}
+    // Una "fuente" es un id de equipo, 'BYE', o {from: idPartido, kind: 'win'}
     const place = (m, slot, src) => {
         if (typeof src === 'number' || src === 'BYE') { m[slot] = src; return; }
         const sm = matches.find(x => x.id === src.from);
-        if (src.kind === 'win') sm.nextWin = { id: m.id, slot };
-        else sm.nextLose = { id: m.id, slot };
+        sm.nextWin = { id: m.id, slot };
     };
-    const pair = (srcs, bracket, round) => {
+    const pair = (srcs, round) => {
         const ms = [];
         for (let i = 0; i < srcs.length; i += 2) {
-            const m = newMatch(`${bracket}${round}_${ms.length}`, bracket, round, ms.length);
+            const m = newMatch(`W${round}_${ms.length}`, 'W', round, ms.length);
             place(m, 'a', srcs[i]);
             place(m, 'b', i + 1 < srcs.length ? srcs[i + 1] : 'BYE');
             matches.push(m); ms.push(m);
         }
         return ms;
     };
-    // Ganadores de una ronda. El que pasó por BYE va primero para que en la siguiente ronda juegue
-    // y el cupo libre le toque a alguien que ya jugó.
+    // El que pasó por BYE va primero para que en la siguiente ronda juegue y el cupo libre le toque
+    // a alguien que ya jugó.
     const winnersOf = (ms) => {
         const w = ms.map(m => ({ from: m.id, kind: 'win' }));
         if (ms[ms.length - 1].b === 'BYE') w.unshift(w.pop());
         return w;
     };
 
-    // ---- Cuadro principal ----
     const wN = {};
-    const W = [];
     let parts = order.slice();
     let r = 1;
     while (parts.length > 1) {
         wN[r] = parts.length;
-        const ms = pair(parts, 'W', r);
-        W.push(ms);
+        const ms = pair(parts, r);
         parts = winnersOf(ms);
         r++;
     }
-    const finalW = W[W.length - 1][0];
 
-    // ---- Repechaje (solo Minisumo) ----
-    if (dbl) {
-        let lr = 0;
-        const addL = (srcs) => { lr++; const ms = pair(srcs, 'L', lr); return winnersOf(ms); };
-        let surv = [];
-        W.forEach(wms => {
-            const losers = wms.map(m => ({ from: m.id, kind: 'lose' }));
-            while (surv.length > losers.length && surv.length > 1) surv = addL(surv);
-            const mixed = [];
-            const mx = Math.max(surv.length, losers.length);
-            for (let i = 0; i < mx; i++) {
-                if (i < surv.length) mixed.push(surv[i]);
-                if (i < losers.length) mixed.push(losers[i]);
-            }
-            surv = addL(mixed);
-        });
-        while (surv.length > 1) surv = addL(surv);
-
-        const GF = newMatch('GF_0', 'G', 1, 0);
-        place(GF, 'a', { from: finalW.id, kind: 'win' });
-        place(GF, 'b', surv[0]);
-        matches.push(GF);
-    }
-
-    const br = { v: BRACKET_VERSION, type: dbl ? 'double' : 'single', size: n, order, wN,
+    const br = { v: BRACKET_VERSION, type: 'single', size: n, order, wN,
                  teamIds: [...ids].sort((x, y) => x - y), matches };
     resolveByes(br);
     return br;
@@ -351,7 +333,6 @@ function getMatch(br, id) { return br.matches.find(m => m.id === id); }
 function completeMatch(br, m, winner, loser, auto) {
     m.completed = true; m.auto = !!auto; m.winner = winner; m.loser = loser;
     if (m.nextWin) getMatch(br, m.nextWin.id)[m.nextWin.slot] = winner;
-    if (m.nextLose) getMatch(br, m.nextLose.id)[m.nextLose.slot] = loser;
 }
 
 // Los cupos BYE avanzan solos
@@ -378,7 +359,6 @@ function resetMatch(br, m) {
     };
     m.completed = false; m.auto = false; m.winner = null; m.loser = null; m.scoreA = 0; m.scoreB = 0;
     clearSlot(m.nextWin);
-    clearSlot(m.nextLose);
 }
 
 function applyResult(br, m, scoreA, scoreB, winnerId) {
@@ -389,22 +369,25 @@ function applyResult(br, m, scoreA, scoreB, winnerId) {
     resolveByes(br);
 }
 
-function bracketHasResults(br) { return br.matches.some(m => m.completed && !m.auto); }
+function bracketHasResults(br) {
+    if (br.type === 'llaves') return llavesHaveResults(br);
+    return br.matches.some(m => m.completed && !m.auto);
+}
 
 function getChampion(br) {
-    const final = br.type === 'double' ? getMatch(br, 'GF_0') : br.matches.filter(m => m.bracket === 'W').slice(-1)[0];
+    const final = br.matches.filter(m => m.bracket === 'W').slice(-1)[0];
     return final && final.completed ? final.winner : null;
 }
 
 function slotName(v) {
-    if (v === null) return 'Por definir';
+    if (v === null || v === undefined) return 'Por definir';
     if (v === 'BYE') return 'BYE (pasa directo)';
     const t = appState.teams.find(t => t.id === v);
     return t ? t.name : '—';
 }
 
-function roundTitleByN(n, finalIsWinners) {
-    if (n <= 2) return finalIsWinners ? 'Final de Ganadores' : 'Gran Final';
+function roundTitleByN(n) {
+    if (n <= 2) return 'Gran Final';
     if (n <= 4) return 'Semifinales';
     if (n <= 8) return 'Cuartos de final';
     if (n <= 16) return 'Octavos de final';
@@ -428,12 +411,14 @@ function sameIds(a, b) {
 
 function renderBracketView(container) {
     const level = appState.currentLevel, cat = appState.currentCategory;
+    if (bracketTypeFor(cat) === 'llaves') { renderLlavesView(container); return; }
+
     const key = bracketKey(level, cat);
     const teams = appState.teams.filter(t => t.level === level && t.category === cat);
     const ids = teams.map(t => t.id);
 
     if (ids.length < 2) {
-        container.innerHTML = `<div style="text-align:center; padding: 40px; color: var(--text-muted);">
+        container.innerHTML = `<div class="empty-state"><i class="fa-solid fa-users-slash"></i>
             <h3>Se necesitan al menos 2 equipos inscritos para armar el cuadro (hay ${ids.length}).</h3></div>`;
         return;
     }
@@ -454,23 +439,16 @@ function renderBracketView(container) {
         }
     }
 
-    const isDouble = br.type === 'double';
     const champId = getChampion(br);
-    const realMatches = br.matches.filter(m => !(m.a === 'BYE' && m.b === 'BYE'));
     const played = br.matches.filter(m => m.completed && !m.auto).length;
-    const byes = br.matches.filter(m => m.bracket === 'W' && ((m.a === 'BYE') !== (m.b === 'BYE'))).length;
+    const byes = br.matches.filter(m => (m.a === 'BYE') !== (m.b === 'BYE')).length;
 
-    const W = {}, L = {}, GF = [];
-    br.matches.forEach(m => {
-        if (m.bracket === 'W') (W[m.round] = W[m.round] || []).push(m);
-        else if (m.bracket === 'L') (L[m.round] = L[m.round] || []).push(m);
-        else GF.push(m);
-    });
+    const W = {};
+    br.matches.forEach(m => { (W[m.round] = W[m.round] || []).push(m); });
     const wRounds = Object.keys(W).map(Number).sort((a, b) => a - b);
-    const lRounds = Object.keys(L).map(Number).sort((a, b) => a - b);
 
     let html = `<div class="bracket-info">
-        <div><strong>${isDouble ? 'Llaves con repechaje (doble eliminación)' : 'Eliminación directa'}</strong>
+        <div><strong>Eliminación directa</strong>
         · ${ids.length} equipos${byes > 0 ? ` · ${byes} pasa(n) directo por número impar` : ''} · partidos jugados: ${played}</div>
         ${appState.isAdmin ? `<button class="btn btn-outline" onclick="drawBracket()"><i class="fa-solid fa-shuffle"></i> Mezclar equipos al azar</button>` : ''}
     </div>`;
@@ -485,34 +463,325 @@ function renderBracketView(container) {
         html += `<div class="champion-banner"><i class="fa-solid fa-trophy"></i> CAMPEÓN: ${escapeHTML(slotName(champId))}</div>`;
     }
 
-    // Cuadro principal
     let cols = 0, tree = '';
     wRounds.forEach(r => {
-        const c = renderRoundColumn(roundTitleByN(br.wN[r], isDouble && r === wRounds[wRounds.length - 1]), W[r]);
+        const c = renderRoundColumn(roundTitleByN(br.wN[r]), W[r]);
         tree += c.html; cols += c.cols;
     });
-    if (isDouble) {
-        const c = renderRoundColumn('Gran Final', GF);
-        tree += c.html; cols += c.cols;
-    }
     html += `<div class="bracket-wrapper">`;
-    html += `<div class="bracket-section-title"><i class="fa-solid fa-crown"></i> ${isDouble ? 'Cuadro Principal (Ganadores)' : 'Cuadro de Eliminación Directa'}</div>`;
+    html += `<div class="bracket-section-title"><i class="fa-solid fa-crown"></i> Cuadro de eliminación directa</div>`;
     html += `<div class="bracket-tree" style="min-width:${Math.max(cols, 3) * 240}px">${tree}</div>`;
-
-    // Repechaje
-    if (isDouble) {
-        let lcols = 0, ltree = '';
-        lRounds.forEach((r, idx) => {
-            const title = idx === lRounds.length - 1 ? 'Final Repechaje' : `Repechaje · Ronda ${r}`;
-            const c = renderRoundColumn(title, L[r]);
-            ltree += c.html; lcols += c.cols;
-        });
-        html += `<div class="bracket-section-title" style="color: var(--accent-cyan);"><i class="fa-solid fa-rotate-left"></i> Cuadro de Repechaje (Perdedores)</div>`;
-        html += `<div class="bracket-tree" style="min-width:${Math.max(lcols, 3) * 240}px">${ltree}</div>`;
-        html += `<div style="color: var(--text-muted); font-size:0.95rem;">El ganador del repechaje se enfrenta al ganador del cuadro principal en la Gran Final.</div>`;
-    }
     html += `</div>`;
     container.innerHTML = html;
+}
+
+// ---------------------------------------------------------------
+// MINISUMO: LLAVES (2 partidos por equipo, avanzan los 2 con más puntos)
+// ---------------------------------------------------------------
+// Tamaño de las llaves: de 3 a 5 equipos (lo más cercano a 4). Con anillo de partidos
+// (A-B, B-C, C-D, D-A) cada equipo juega exactamente 2 partidos.
+function llaveSizes(n) {
+    const lo = Math.max(1, Math.ceil(n / 5)), hi = Math.max(1, Math.floor(n / 3));
+    const g = Math.min(hi, Math.max(lo, Math.round(n / 4)));
+    const base = Math.floor(n / g), extra = n % g;
+    return Array.from({ length: g }, (_, i) => base + (i < extra ? 1 : 0));
+}
+
+// Reparte los equipos en llaves evitando juntar equipos del mismo colegio
+function arrangeForLlaves(ids, sizes, randomize) {
+    let list = ids.map(id => ({ id, key: teamSchoolKey(id) }));
+    if (randomize) shuffleInPlace(list);
+    const cnt = {}, rank = {};
+    list.forEach(x => { cnt[x.key] = (cnt[x.key] || 0) + 1; if (!(x.key in rank)) rank[x.key] = randomize ? Math.random() : 0; });
+    list.sort((a, b) => cnt[b.key] - cnt[a.key] || rank[a.key] - rank[b.key] || (a.key < b.key ? -1 : a.key > b.key ? 1 : 0));
+    const llaves = sizes.map(() => []);
+    list.forEach(x => {
+        let best = -1, bestScore = -Infinity;
+        llaves.forEach((g, gi) => {
+            if (g.length >= sizes[gi]) return;
+            const same = g.filter(y => y.key === x.key).length;
+            const score = -same * 1000 + (sizes[gi] - g.length) * 10 - gi;
+            if (score > bestScore) { bestScore = score; best = gi; }
+        });
+        llaves[best].push(x);
+    });
+    return llaves.map(g => { const arr = g.map(x => x.id); return randomize ? shuffleInPlace(arr) : arr; });
+}
+
+// Reparte los clasificados de la fase anterior evitando que se vuelvan a cruzar los de una misma llave
+function assignSources(items, sizes) {
+    const groups = sizes.map(() => []);
+    items.forEach(it => {
+        let best = -1, bestScore = -Infinity;
+        groups.forEach((g, gi) => {
+            if (g.length >= sizes[gi]) return;
+            const conflict = g.some(x => x.from.l === it.from.l);
+            const score = (conflict ? 0 : 1000) + (sizes[gi] - g.length) * 10 - gi;
+            if (score > bestScore) { bestScore = score; best = gi; }
+        });
+        groups[best].push(it);
+    });
+    return groups;
+}
+
+function createLlaves(ids, randomize) {
+    const n = ids.length;
+    const phases = [];
+    let remaining = n, pi = 0, prev = null;
+    while (remaining > 2) {
+        const sizes = llaveSizes(remaining);
+        let slotsPer;
+        if (pi === 0) {
+            slotsPer = arrangeForLlaves(ids, sizes, randomize);
+        } else {
+            const items = [];
+            prev.forEach((L, li) => items.push({ from: { p: pi - 1, l: li, rank: 1 } }));
+            prev.forEach((L, li) => items.push({ from: { p: pi - 1, l: li, rank: 2 } }));
+            slotsPer = assignSources(items, sizes);
+        }
+        const llaves = sizes.map((k, i) => {
+            const L = { id: `P${pi + 1}L${i}`, name: LLAVE_LETTERS[i] || String(i + 1), size: k, slots: slotsPer[i],
+                        tb: Array.from({ length: k }, () => Math.random()), matches: [] };
+            for (let j = 0; j < k; j++) {
+                L.matches.push({ id: `${L.id}_M${j}`, ai: j, bi: (j + 1) % k, sa: 0, sb: 0, done: false, ra: null, rb: null });
+            }
+            return L;
+        });
+        phases.push({ idx: pi, llaves });
+        prev = llaves; remaining = 2 * llaves.length; pi++;
+    }
+    const finalSlots = n === 2 ? [ids[0], ids[1]]
+        : [{ from: { p: pi - 1, l: 0, rank: 1 } }, { from: { p: pi - 1, l: 0, rank: 2 } }];
+    return {
+        v: LLAVES_VERSION, type: 'llaves', teamIds: [...ids].sort((a, b) => a - b), order: [...ids], phases,
+        final: { id: 'FINAL', slots: finalSlots, sa: 0, sb: 0, done: false, ra: null, rb: null, tw: null }
+    };
+}
+
+function llavesHaveResults(br) {
+    return br.phases.some(ph => ph.llaves.some(L => L.matches.some(m => m.done))) || !!(br.final && br.final.done);
+}
+
+function phaseName(br, pi) {
+    return pi === br.phases.length - 1 ? 'Semifinal' : `Ronda ${pi + 1}`;
+}
+
+// Calcula todo a partir de los resultados guardados (equipos de cada llave, tabla, clasificados).
+// Si un resultado quedó con equipos distintos a los que se jugaron, se descarta solo.
+function computeLlaves(br) {
+    const rankOf = {};
+    const resolve = (s) => {
+        if (typeof s === 'number') return s;
+        const r = rankOf[`${s.from.p}.${s.from.l}`];
+        return r ? r[s.from.rank - 1] : null;
+    };
+    const out = { phases: [], final: null, played: 0, total: 0 };
+
+    br.phases.forEach((ph, pi) => {
+        const cp = { llaves: [] };
+        ph.llaves.forEach((L, li) => {
+            const teams = L.slots.map(resolve);
+            const ms = L.matches.map(m => {
+                const ta = teams[m.ai], tb = teams[m.bi];
+                if (m.done && (m.ra !== ta || m.rb !== tb)) { m.done = false; m.sa = 0; m.sb = 0; m.ra = null; m.rb = null; }
+                if (m.done) out.played++;
+                out.total++;
+                return { m, ta, tb, ready: ta != null && tb != null };
+            });
+            const stats = teams.map((t, i) => ({ id: t, idx: i, pj: 0, g: 0, e: 0, p: 0, rf: 0, rc: 0, dif: 0, pts: 0 }));
+            ms.forEach(x => {
+                if (!x.m.done) return;
+                const A = stats[x.m.ai], B = stats[x.m.bi];
+                A.pj++; B.pj++;
+                A.rf += x.m.sa; A.rc += x.m.sb; B.rf += x.m.sb; B.rc += x.m.sa;
+                if (x.m.sa > x.m.sb) { A.g++; A.pts += PTS_WIN; B.p++; }
+                else if (x.m.sb > x.m.sa) { B.g++; B.pts += PTS_WIN; A.p++; }
+                else { A.e++; B.e++; A.pts += PTS_DRAW; B.pts += PTS_DRAW; }
+            });
+            stats.forEach(s => { s.dif = s.rf - s.rc; });
+            const sorted = [...stats].sort((a, b) =>
+                (b.pts - a.pts) || (b.dif - a.dif) || (b.rf - a.rf) || (L.tb[a.idx] - L.tb[b.idx]));
+            const complete = ms.every(x => x.m.done) && teams.every(t => t != null);
+            let tied = false;
+            if (complete) {
+                rankOf[`${pi}.${li}`] = sorted.map(s => s.id);
+                const s1 = sorted[1], s2 = sorted[2];
+                tied = !!s2 && s1.pts === s2.pts && s1.dif === s2.dif && s1.rf === s2.rf;
+            }
+            cp.llaves.push({ L, li, teams, ms, sorted, complete, tied });
+        });
+        out.phases.push(cp);
+    });
+
+    const f = br.final;
+    const fa = resolve(f.slots[0]), fb = resolve(f.slots[1]);
+    if (f.done && (f.ra !== fa || f.rb !== fb)) { f.done = false; f.sa = 0; f.sb = 0; f.ra = null; f.rb = null; f.tw = null; }
+    if (f.done) out.played++;
+    out.total++;
+    const champion = f.done ? (f.sa > f.sb ? fa : (f.sb > f.sa ? fb : f.tw)) : null;
+    out.final = { f, ta: fa, tb: fb, ready: fa != null && fb != null, champion };
+    return out;
+}
+
+function findLlaveMatch(comp, matchId) {
+    if (matchId === 'FINAL') return { m: comp.final.f, ta: comp.final.ta, tb: comp.final.tb };
+    for (const cp of comp.phases) for (const c of cp.llaves) for (const x of c.ms) {
+        if (x.m.id === matchId) return { m: x.m, ta: x.ta, tb: x.tb };
+    }
+    return null;
+}
+
+function saveLlaveResult(br, matchId, sa, sb, tw) {
+    const found = findLlaveMatch(computeLlaves(br), matchId);
+    if (!found || found.ta == null || found.tb == null) return false;
+    const { m, ta, tb } = found;
+    m.sa = sa; m.sb = sb; m.done = true; m.ra = ta; m.rb = tb;
+    if (matchId === 'FINAL') m.tw = tw == null ? null : tw;
+    computeLlaves(br);
+    return true;
+}
+
+function srcLabel(br, s) {
+    if (typeof s === 'number') return slotName(s);
+    return `${s.from.rank}º de la Llave ${LLAVE_LETTERS[s.from.l]} (${phaseName(br, s.from.p)})`;
+}
+
+function setLlavesTab(i) {
+    appState.llavesTab = appState.llavesTab || {};
+    appState.llavesTab[bracketKey(appState.currentLevel, appState.currentCategory)] = i;
+    renderDashboard();
+}
+
+function renderLlavesView(container) {
+    const level = appState.currentLevel, cat = appState.currentCategory;
+    const key = bracketKey(level, cat);
+    const ids = appState.teams.filter(t => t.level === level && t.category === cat).map(t => t.id);
+
+    if (ids.length < 2) {
+        container.innerHTML = `<div class="empty-state"><i class="fa-solid fa-users-slash"></i>
+            <h3>Se necesitan al menos 2 equipos inscritos para armar las llaves (hay ${ids.length}).</h3></div>`;
+        return;
+    }
+
+    let br = appState.brackets[key];
+    let stale = false;
+    if (!br || br.v !== LLAVES_VERSION) {
+        br = createLlaves(ids, false);
+        appState.brackets[key] = br;
+        saveState();
+    } else if (!sameIds(br.teamIds, ids)) {
+        if (!llavesHaveResults(br)) {
+            br = createLlaves(ids, false);
+            appState.brackets[key] = br;
+            saveState();
+        } else {
+            stale = true;
+        }
+    }
+
+    const comp = computeLlaves(br);
+    const nPh = br.phases.length;
+    appState.llavesTab = appState.llavesTab || {};
+    let tab = appState.llavesTab[key];
+    if (tab === undefined || tab < 0 || tab > nPh) {
+        tab = comp.phases.findIndex(cp => cp.llaves.some(c => !c.complete));
+        if (tab === -1) tab = nPh;
+    }
+
+    let html = `<div class="bracket-info">
+        <div><strong>Llaves de 2 partidos</strong> · ${ids.length} equipos · cada equipo juega 2 partidos por ronda y avanzan los 2 con más puntos
+        · partidos jugados: ${comp.played} de ${comp.total}
+        <span class="rule-note">Victoria ${PTS_WIN} pts · Empate ${PTS_DRAW} pt · Derrota 0. Desempate: diferencia de rondas, rondas a favor y sorteo.</span></div>
+        ${appState.isAdmin ? `<button class="btn btn-outline" onclick="drawBracket()"><i class="fa-solid fa-shuffle"></i> Mezclar equipos al azar</button>` : ''}
+    </div>`;
+
+    if (stale) {
+        html += `<div class="stale-notice"><i class="fa-solid fa-triangle-exclamation"></i>
+            Se inscribieron o cambiaron equipos después de iniciar el torneo. Las llaves conservan los resultados actuales.
+            ${appState.isAdmin ? 'Usa "Mezclar equipos al azar" para rehacerlas con todos los equipos (borra los resultados).' : ''}</div>`;
+    }
+
+    if (comp.final.champion != null) {
+        html += `<div class="champion-banner"><i class="fa-solid fa-trophy"></i> CAMPEÓN: ${escapeHTML(slotName(comp.final.champion))}</div>`;
+    }
+
+    // Pestañas de rondas
+    html += `<div class="phase-tabs">`;
+    comp.phases.forEach((cp, pi) => {
+        const done = cp.llaves.every(c => c.complete);
+        html += `<button class="phase-tab ${tab === pi ? 'active' : ''} ${done ? 'done' : ''}" onclick="setLlavesTab(${pi})">
+            ${done ? '<i class="fa-solid fa-circle-check"></i>' : '<i class="fa-regular fa-circle"></i>'} ${phaseName(br, pi)}
+            <small>${cp.llaves.length} llave${cp.llaves.length === 1 ? '' : 's'}</small></button>`;
+    });
+    html += `<button class="phase-tab ${tab === nPh ? 'active' : ''} ${comp.final.f.done ? 'done' : ''}" onclick="setLlavesTab(${nPh})">
+        <i class="fa-solid fa-trophy"></i> Final</button></div>`;
+
+    // Paneles (se imprimen todos; en pantalla solo el activo)
+    comp.phases.forEach((cp, pi) => {
+        const nextTxt = pi === nPh - 1 ? 'Los 2 primeros pasan a la final' : `Los 2 primeros de cada llave pasan a la ${phaseName(br, pi + 1)}`;
+        html += `<section class="phase-panel ${tab === pi ? 'active' : ''}">
+            <div class="phase-title"><span>${phaseName(br, pi)}</span><small>${nextTxt}</small></div>
+            <div class="llaves-grid">${cp.llaves.map(c => llaveCardHTML(br, c)).join('')}</div></section>`;
+    });
+    html += `<section class="phase-panel ${tab === nPh ? 'active' : ''}">
+        <div class="phase-title"><span>Gran Final</span><small>Se enfrentan los 2 clasificados de la última llave</small></div>
+        ${finalCardHTML(br, comp.final)}</section>`;
+
+    container.innerHTML = html;
+}
+
+function llaveTeamLabel(br, L, slotIdx, id) {
+    return id != null ? escapeHTML(slotName(id)) : `<span class="placeholder">${escapeHTML(srcLabel(br, L.slots[slotIdx]))}</span>`;
+}
+
+function llaveCardHTML(br, c) {
+    const { L, ms, sorted, complete, tied } = c;
+    const rows = sorted.map((s, pos) => {
+        const q = complete && pos < 2;
+        const click = typeof s.id === 'number' ? ` onclick="showTeamDetail(${s.id})"` : '';
+        return `<tr class="${q ? 'qualified' : ''}">
+            <td class="pos">${pos + 1}</td>
+            <td class="llave-team"${click}>${llaveTeamLabel(br, L, s.idx, s.id)}${q ? ' <i class="fa-solid fa-circle-check" title="Clasificado"></i>' : ''}</td>
+            <td>${s.pj}</td><td>${s.g}</td><td>${s.e}</td><td>${s.p}</td>
+            <td>${s.dif > 0 ? '+' : ''}${s.dif}</td><td class="pts">${s.pts}</td></tr>`;
+    }).join('');
+
+    const matches = ms.map(x => {
+        const m = x.m;
+        const wa = m.done && m.sa > m.sb, wb = m.done && m.sb > m.sa;
+        const nameA = llaveTeamLabel(br, L, m.ai, x.ta), nameB = llaveTeamLabel(br, L, m.bi, x.tb);
+        return `<div class="llave-match ${m.done ? 'done' : ''}">
+            <span class="lm-team ${wa ? 'win' : ''}">${nameA}</span>
+            <span class="lm-score">${m.done ? `${m.sa}<i>-</i>${m.sb}` : 'vs'}</span>
+            <span class="lm-team right ${wb ? 'win' : ''}">${nameB}</span>
+            ${appState.isAdmin && x.ready ? `<button class="btn-edit-match" onclick="openEditMatchModal('${m.id}')"><i class="fa-solid fa-pen"></i> ${m.done ? 'Editar' : 'Registrar'}</button>` : '<span></span>'}
+        </div>`;
+    }).join('');
+
+    return `<article class="llave-card ${complete ? 'complete' : ''}">
+        <header class="llave-head">
+            <span class="llave-name"><i class="fa-solid fa-layer-group"></i> Llave ${L.name}</span>
+            <span class="llave-status ${complete ? 'ok' : ''}">${complete ? 'Completa' : `${ms.filter(x => x.m.done).length}/${ms.length} partidos`}</span>
+        </header>
+        <table class="llave-table">
+            <thead><tr><th>#</th><th>Equipo</th><th title="Partidos jugados">PJ</th><th title="Ganados">G</th><th title="Empatados">E</th><th title="Perdidos">P</th><th title="Diferencia de rondas">Dif</th><th>Pts</th></tr></thead>
+            <tbody>${rows}</tbody>
+        </table>
+        ${complete && tied ? '<div class="llave-note"><i class="fa-solid fa-dice"></i> Empate total en el límite de clasificación: se definió por sorteo.</div>' : ''}
+        <div class="llave-matches">${matches}</div>
+    </article>`;
+}
+
+function finalCardHTML(br, fin) {
+    const f = fin.f;
+    const wa = f.done && fin.champion === fin.ta, wb = f.done && fin.champion === fin.tb;
+    const nm = (id, s) => id != null ? escapeHTML(slotName(id)) : `<span class="placeholder">${escapeHTML(srcLabel(br, s))}</span>`;
+    return `<article class="final-card">
+        <div class="final-side ${wa ? 'win' : ''}">${nm(fin.ta, f.slots[0])}</div>
+        <div class="final-score">${f.done ? `${f.sa}<i>-</i>${f.sb}` : 'VS'}</div>
+        <div class="final-side right ${wb ? 'win' : ''}">${nm(fin.tb, f.slots[1])}</div>
+        ${appState.isAdmin && fin.ready ? `<div class="final-actions"><button class="btn btn-cyan" onclick="openEditMatchModal('FINAL')"><i class="fa-solid fa-pen"></i> ${f.done ? 'Editar resultado' : 'Registrar resultado'}</button></div>` : ''}
+    </article>`;
 }
 
 function drawBracket() {
@@ -525,7 +794,7 @@ function drawBracket() {
         ? "Ya hay resultados registrados. Mezclar de nuevo los BORRARÁ. ¿Continuar?"
         : "¿Mezclar al azar los emparejamientos de esta categoría? (los equipos del mismo colegio se separan al máximo)";
     if (!confirm(msg)) return;
-    appState.brackets[key] = createBracket(cat, ids, true);
+    appState.brackets[key] = bracketTypeFor(cat) === 'llaves' ? createLlaves(ids, true) : createBracket(cat, ids, true);
     saveState();
     renderDashboard();
 }
@@ -560,15 +829,28 @@ function createMatchCardHTML(m) {
     `;
 }
 
+function currentBracket() {
+    return appState.brackets[bracketKey(appState.currentLevel, appState.currentCategory)];
+}
+
 function openEditMatchModal(matchId) {
-    const br = appState.brackets[bracketKey(appState.currentLevel, appState.currentCategory)];
-    const m = br && getMatch(br, matchId);
-    if (!m) return;
+    const br = currentBracket();
+    if (!br) return;
+    let nameA, nameB, sa, sb;
+    if (br.type === 'llaves') {
+        const found = findLlaveMatch(computeLlaves(br), matchId);
+        if (!found) return;
+        nameA = slotName(found.ta); nameB = slotName(found.tb); sa = found.m.sa; sb = found.m.sb;
+    } else {
+        const m = getMatch(br, matchId);
+        if (!m) return;
+        nameA = slotName(m.a); nameB = slotName(m.b); sa = m.scoreA; sb = m.scoreB;
+    }
     document.getElementById('editMatchId').value = matchId;
-    document.getElementById('teamA_label').innerText = slotName(m.a);
-    document.getElementById('teamB_label').innerText = slotName(m.b);
-    document.getElementById('teamA_score').value = m.scoreA;
-    document.getElementById('teamB_score').value = m.scoreB;
+    document.getElementById('teamA_label').innerText = nameA;
+    document.getElementById('teamB_label').innerText = nameB;
+    document.getElementById('teamA_score').value = sa;
+    document.getElementById('teamB_score').value = sb;
     document.getElementById('editMatchModal').classList.add('active');
 }
 
@@ -576,10 +858,42 @@ function saveMatchScore() {
     const matchId = document.getElementById('editMatchId').value;
     const scoreA = parseInt(document.getElementById('teamA_score').value) || 0;
     const scoreB = parseInt(document.getElementById('teamB_score').value) || 0;
-    const br = appState.brackets[bracketKey(appState.currentLevel, appState.currentCategory)];
-    const m = br && getMatch(br, matchId);
-    if (!m) return;
+    const br = currentBracket();
+    if (!br) return;
 
+    if (br.type === 'llaves') {
+        const comp = computeLlaves(br);
+        const found = findLlaveMatch(comp, matchId);
+        if (!found || found.ta == null || found.tb == null) return;
+        let tw = null;
+        if (matchId === 'FINAL' && scoreA === scoreB) {
+            const aWins = confirm(`Empate ${scoreA}-${scoreB} en la final.\n\nAceptar = gana ${slotName(found.ta)}\nCancelar = gana ${slotName(found.tb)}`);
+            tw = aWins ? found.ta : found.tb;
+        }
+        // ¿Este cambio altera clasificados y borra resultados posteriores?
+        const clone = JSON.parse(JSON.stringify(br));
+        const before = computeLlaves(clone).played;
+        const wasDone = !!findLlaveMatch(computeLlaves(clone), matchId).m.done;
+        saveLlaveResult(clone, matchId, scoreA, scoreB, tw);
+        const after = computeLlaves(clone).played;
+        const invalid = before + (wasDone ? 0 : 1) - after;
+        if (invalid > 0 && !confirm(`Este cambio modifica los clasificados y borrará ${invalid} resultado(s) de partidos posteriores. ¿Continuar?`)) return;
+
+        // Se queda en la pestaña donde se está trabajando (no salta sola a la siguiente ronda)
+        const tabIdx = [...document.querySelectorAll('.phase-tab')].findIndex(b => b.classList.contains('active'));
+        if (tabIdx >= 0) {
+            appState.llavesTab = appState.llavesTab || {};
+            appState.llavesTab[bracketKey(appState.currentLevel, appState.currentCategory)] = tabIdx;
+        }
+        saveLlaveResult(br, matchId, scoreA, scoreB, tw);
+        saveState();
+        closeModal('editMatchModal');
+        renderDashboard();
+        return;
+    }
+
+    const m = getMatch(br, matchId);
+    if (!m) return;
     let winnerId;
     if (scoreA > scoreB) winnerId = m.a;
     else if (scoreB > scoreA) winnerId = m.b;
@@ -647,6 +961,11 @@ function switchCategory(cat) {
 function renderDashboard() {
     document.getElementById('catTitleDisplay').innerHTML = `<i class="fa-solid fa-trophy" style="color: var(--accent-gold);"></i> ${appState.currentCategory}`;
     document.getElementById('levelBadgeDisplay').innerText = `Nivel: ${appState.currentLevel}`;
+    const countEl = document.getElementById('teamCountDisplay');
+    if (countEl) {
+        const n = appState.teams.filter(t => t.level === appState.currentLevel && t.category === appState.currentCategory).length;
+        countEl.textContent = `${n} equipo${n === 1 ? '' : 's'}`;
+    }
 
     const viewArea = document.getElementById('viewArea');
     viewArea.innerHTML = "";
@@ -764,7 +1083,7 @@ function handleLogin() {
         document.getElementById('authStatusBadge').className = "auth-badge admin";
         document.getElementById('authStatusBadge').innerHTML = '<i class="fa-solid fa-user-check"></i> ADMIN ACTIVADO';
         document.getElementById('loginBtn').innerHTML = '<i class="fa-solid fa-right-from-bracket"></i> Salir Admin';
-        document.getElementById('adminControlsArea').style.display = "block";
+        document.getElementById('adminControlsArea').style.display = "flex";
         closeModal('loginModal');
         renderDashboard();
     } else {
@@ -880,9 +1199,38 @@ function setPresetTime(sec) {
     updateTimerDisplay();
 }
 
-function toggleTVMode() {
-    document.body.classList.toggle('tv-mode');
+// MODO TV: pantalla completa limpia. Se sale con el botón "Volver al inicio" o con la tecla Esc.
+function toggleTVMode(force) {
+    const on = typeof force === 'boolean' ? force : !document.body.classList.contains('tv-mode');
+    document.body.classList.toggle('tv-mode', on);
+    const root = document.documentElement;
+    if (on) {
+        if (root.requestFullscreen && !document.fullscreenElement) {
+            try { const p = root.requestFullscreen(); if (p && p.catch) p.catch(() => {}); } catch (e) {}
+        }
+    } else {
+        if (document.fullscreenElement && document.exitFullscreen) {
+            try { const p = document.exitFullscreen(); if (p && p.catch) p.catch(() => {}); } catch (e) {}
+        }
+        window.scrollTo(0, 0);
+    }
 }
+
+// Si el usuario sale de pantalla completa (Esc del navegador), también se sale del modo TV
+document.addEventListener('fullscreenchange', () => {
+    if (!document.fullscreenElement && document.body.classList.contains('tv-mode')) toggleTVMode(false);
+});
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        const openModal = document.querySelector('.modal.active');
+        if (openModal) openModal.classList.remove('active');
+        else if (document.body.classList.contains('tv-mode')) toggleTVMode(false);
+    } else if (e.key === 'Enter') {
+        const login = document.getElementById('loginModal');
+        if (login && login.classList.contains('active')) handleLogin();
+    }
+});
 
 function exportReport() {
     window.print();
@@ -895,4 +1243,32 @@ function resetToDefaultData() {
         loadState();
         renderDashboard();
     }
+}
+
+// AGREGAR EQUIPO (admin): se guarda en el navegador y no se pierde al actualizar los datos del código
+function openAddTeamModal() {
+    ['newTeamName', 'newTeamSchool', 'newTeamCap', 'newTeamCapDoc', 'newTeamP2', 'newTeamP3', 'newTeamPhone']
+        .forEach(id => { document.getElementById(id).value = ''; });
+    document.getElementById('newTeamContext').textContent = `Se agregará a: ${appState.currentCategory} · ${appState.currentLevel}`;
+    document.getElementById('addTeamModal').classList.add('active');
+}
+
+function saveNewTeam() {
+    const g = id => document.getElementById(id).value.trim();
+    const name = g('newTeamName'), school = g('newTeamSchool');
+    if (!name || !school) {
+        alert("El nombre del equipo y la institución son obligatorios.");
+        return;
+    }
+
+    const nextId = Math.max(1000, ...appState.teams.map(t => t.id)) + 1;
+    appState.teams.push({
+        id: nextId, name, level: appState.currentLevel, category: appState.currentCategory, school,
+        cap: g('newTeamCap') || 'N/A', capDoc: g('newTeamCapDoc') || 'N/A',
+        p2: g('newTeamP2') || 'N/A', p3: g('newTeamP3') || 'N/A', phone: g('newTeamPhone') || 'N/A',
+        score: 0, t1: 0, t2: 0, t3: 0, bestTime: 0
+    });
+    saveState();
+    closeModal('addTeamModal');
+    renderDashboard();
 }
